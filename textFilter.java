@@ -26,7 +26,7 @@ public class textFilter {
      {
     for(int j=0;j<check.length;j++)     
      {
-      if(Str[i].equals(check[j]))
+      if(Str[i].equals(check[j])||Str[i].equals(check[j]+'!')||Str[i].equals(check[j]+'?')||Str[i].equals(check[j]+'.'))
       {
         count++;
         int n=0;   
