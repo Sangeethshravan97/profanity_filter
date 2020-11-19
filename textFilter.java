@@ -14,7 +14,7 @@ public class textFilter {
 
      System.out.println("Enter the message : ");
 
-     String check[]={"fuck","bitch","ass","faggot"};
+     String check[]={"pig","dog","retarad","fool"};
      String line = read.nextLine();
      String Str[]=line.split(" ");
      int count=0;
