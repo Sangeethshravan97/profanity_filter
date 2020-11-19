@@ -14,7 +14,7 @@ public class textFilter {
 
      System.out.println("Enter the message : ");
 
-     String check[]={"fucker","fuck","pussy","bitch","asshole","faggot"};
+     String check[]={"fuck","bitch","ass","faggot"};
      String line = read.nextLine();
      String Str[]=line.split(" ");
      int count=0;
@@ -30,7 +30,7 @@ public class textFilter {
       {
         count++;
         int n=0;   
-        x=Str[i];
+        x=check[j];
          
         do{
              newLine+="*";
